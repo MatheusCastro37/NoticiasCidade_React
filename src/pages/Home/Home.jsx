@@ -1,14 +1,18 @@
 import { Header } from "../../components/Header/Header";
-import { Wrapper } from "./style";
+import { NavSide } from '../../components/NavSide/NavSide';
+import { HeaderWrapper, MainWrapper } from "./style";
 import Detalhe from '../../assets/images/detalhe-topo.png';
 
 export const Home = () => {
   return (
     <>
-      <Wrapper>
+      <HeaderWrapper>
         <Header />
         <img src={Detalhe} alt="Detalhe" />
-      </Wrapper>
+      </HeaderWrapper>
+      <MainWrapper>
+        <NavSide />
+      </MainWrapper>
     </>
   )
 }
