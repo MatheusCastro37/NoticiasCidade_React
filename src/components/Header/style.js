@@ -21,4 +21,9 @@ export const ButtonHeader = styled.button`
     color: #FFFFFF;
     padding: 13px 20px;
     width: fit-content;
+
+    &:hover{
+        cursor: pointer;
+        color: #000000;
+    }
 `

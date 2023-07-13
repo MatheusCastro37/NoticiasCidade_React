@@ -14,7 +14,6 @@ export const NavSide = () => {
             <NavButton><CheckIcon />João Pedro</NavButton>
             <NavButton><CheckIcon />Fernando Weiss</NavButton>
     </NavWrapper>
-
     <Newsletter />
   </>)
 }
