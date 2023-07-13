@@ -1,3 +1,4 @@
+import { Newsletter } from '../Newsletter/Newsletter';
 import { NavButton, NavWrapper } from './style';
 import CheckIcon from '@mui/icons-material/Check';
 
@@ -13,5 +14,7 @@ export const NavSide = () => {
             <NavButton><CheckIcon />João Pedro</NavButton>
             <NavButton><CheckIcon />Fernando Weiss</NavButton>
     </NavWrapper>
+
+    <Newsletter />
   </>)
 }
