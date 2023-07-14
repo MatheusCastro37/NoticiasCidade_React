@@ -4,14 +4,14 @@ export const HeaderWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50vw;
     height: fit-content;
 `
 
 export const MainWrapper = styled.div`
     display: flex;
     height: fit-content;
-    width: auto;
+    width: 50vw;
     margin-top: 70px;
 
     div#PostsMain{
