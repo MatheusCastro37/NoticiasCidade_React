@@ -26,8 +26,4 @@ export const ButtonHeader = styled.button`
         cursor: pointer;
         color: #000000;
     }
-
-    &:active{
-        background-color: #000000;
-    }
 `
