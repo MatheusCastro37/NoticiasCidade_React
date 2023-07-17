@@ -4,7 +4,6 @@ import Fundo from '../../assets/images/fundo-caixa.png';
 export const CardPost = styled.div`
     height: fit-content;
     margin: 0 10px 10px 10px;
-    width: 20vw;
 
     &::after,
     &::before{
@@ -44,7 +43,6 @@ export const CardPost = styled.div`
 `
 
 export const CardPostBottom = styled.div`
-    width: 20vw;
     height: fit-content;
     display: flex;
     flex-direction: column;
